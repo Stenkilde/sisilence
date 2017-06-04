@@ -18,11 +18,21 @@
         <footer class="links">
             <a href="http://meepmerp.com/">Meepmerp</a>
         </footer>
+
+        <div class="global">
+            <img src="resources/silencer.png" onclick="global()">
+            <audio id="global" src="resources/Global_Silence.mp3" autostart="false" hidden="true"></audio>
+        </div>
         
         <script type="text/javascript">
             function silence(){
                 document.getElementById('silence').currentTime = 0;
                 document.getElementById('silence').play();
+            }
+
+            function global() {
+                document.getElementById('global').currentTime = 0;
+                document.getElementById('global').play();
             }
         </script>
     </div>
