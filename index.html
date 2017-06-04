@@ -9,8 +9,16 @@
 </head>
 <body>
     <div class="center-container">
-        <img src="resources/silence.png" id="center-image" onclick="silence()">
-        <audio id="silence" src="resources/silence.wav" autostart="false" hidden="true"></audio>
+        
+        <div class="content">
+            <img src="resources/silence.png" id="center-image" onclick="silence()">
+            <audio id="silence" src="resources/silence.wav" autostart="false" hidden="true"></audio>
+        </div>
+        
+        <footer class="links">
+            <a href="http://meepmerp.com/">Meepmerp</a>
+        </footer>
+        
         <script type="text/javascript">
             function silence(){
                 document.getElementById('silence').currentTime = 0;
