@@ -4,48 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Si-Silence!</title>
+    <title>OSfrog</title>
+    <link rel="shortcut icon" href="resources/favicon.ico">
     <link rel="stylesheet" href="resources/styles.css">
 </head>
 <body>
     <div class="center-container">
         
         <div class="content">
-            <img src="resources/silence.png" id="center-image" onclick="silence()">
-            <audio id="silence" src="resources/silence.wav" autostart="false" hidden="true"></audio>
+            <img src="resources/osfrog.png" id="center-image" onclick="balance()">
+            <audio id="balance" src="resources/balance.mp3" autostart="false" hidden="true"></audio>
         </div>
         
         <footer class="links">
             <a href="http://meepmerp.com/">Meepmerp</a>
+            <a href="http://sisilence.com/">Silence</a>
         </footer>
-
-        <div class="global">
-            <img src="resources/silencer.png" onclick="global()">
-            <audio id="global" src="resources/Global_Silence.mp3" autostart="false" hidden="true"></audio>
-        </div>
         
         <script type="text/javascript">
             document.getElementById('global').volume = 0.2;
             
-            function silence(){
-                document.getElementById('silence').currentTime = 0;
-                document.getElementById('silence').play();
+            function balance(){
+                document.getElementById('balance').currentTime = 0;
+                document.getElementById('balance').play();
             }
-
-            function global() {
-                document.getElementById('global').currentTime = 0;
-                document.getElementById('global').play();
-            }
-        </script>
-
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-58540955-3', 'auto');
-            ga('send', 'pageview');
         </script>
     </div>
 </body>
