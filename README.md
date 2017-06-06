@@ -11,3 +11,6 @@ Made by me:
 
 Community additions:
 * [BabyRage Artour](http://babyrages.com)
+* [Mana Break](http://www.mana-break.xyz/)
+* [Mana Void](http://www.mana-break.xyz/manavoid.html)
+* [17%](http://www.mana-break.xyz/seventeen.html)
