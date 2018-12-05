@@ -2,15 +2,6 @@
 
 I have no idea what you expected coming here, but this is just a repo for all sorts of odd dota2 meme websites....
 
-Original idea by /u/esport5000
-* [Meepmerp](http://meepmerp.com)
-
 Made by me:
 * [SILENCE](http://sisilence.com)
 * [Balance OSfrog](http://balancethings.com)
-
-Community additions:
-* [BabyRage Artour](http://babyrages.com)
-* [Mana Break](http://www.mana-break.xyz/)
-* [Mana Void](http://www.mana-break.xyz/manavoid.html)
-* [17%](http://www.mana-break.xyz/seventeen.html)
